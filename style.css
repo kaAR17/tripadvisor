@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 3px;
+    
+}
+
+body {
+    font-family: Baskervville, serif;
+    
+
+    overflow-x: hidden;
+}
+
+.thead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.thead__s2 {
+    display: flex;
+    gap: 10PX;
+    cursor: pointer;
+    margin-right: 30%;
+
+}
+
+
+.thead__s3 {
+    display: flex;
+    cursor: pointer;
+}
+
+.thead img {
+    width: 35%;
+}
+
+.thead__s3 h3 {
+
+    
+    
+    font-size: small;
+    
+    display: flex;
+    
+
+}
+
+.thead__s3 p {
+
+    border: solid black 1px;
+    border-width: 5px;
+    font-size: small;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+
+}
+
+.wh {
+    font-size: xx-large;
+    margin-left: 38%;
+    padding-top: 30px;
+}
+
+.sec {
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: white;
+    
+
+
+}
+
+.sec__s1 {
+    border-bottom: solid black 1px;
+
+}
+
+.sec__s1:hover,
+.sec__s2:hover,
+.sec__s3:hover,
+.sec__s4:hover,
+.sec__s5:hover,
+.sec__s6:hover {
+    border-bottom: solid black 1px;
+
+}
+
+.navbar {
+    margin-top: 20px;
+    border: solid black 1px;
+    display: flex;
+    padding: 5px;
+    gap: 45%;
+    border-radius: 30px;
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+
+}
+
+.navbar{
+    height: 20%;
+    
+    position:relative;
+
+}
+.navbar__p{
+    position:absolute;
+    left:90%;
+}
+.navbar__p button{
+    padding: 3px;
+    color: black;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+
+
+
+.navbar__s1 {
+    font-size: large;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: peachpuff;
+
+    width: fit-content;
+
+}
+.image img{
+    width:80%;
+    height: 500px;
+    margin-left:7%;
+     margin-top:20px;
+    
+}
+.image{
+    position: relative;
+}
+.image h1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color:antiquewhite
+}
+.image h1 button:hover{
+    cursor:pointer;
+    background-color: blueviolet;
+}
+.cont{
+    padding-top:40px;
+    gap:5px;
+    margin-left: 7%;
+    font-size: large;
+}
+.res{
+    display:flex;
+    gap:10px;
+    margin-left: 7%;
+    padding-top: 30px;
+    }
+    .res img{
+        border-radius: 10px;
+        width:250px;
+        height:250px;
+    }
+    .res__img1{
+        position:relative;
+        
+    }
+    .res__img1__p1{
+        
+        position:absolute;
+        top:80%;
+        font-family: "Ubuntu", sans-serif;
+        font-size: xx-large;
+        
+    }
+    .res__img2{
+        position:relative;
+        
+    }
+    .res__img2__p2{
+        
+        position:absolute;
+        top:80%;
+        font-family: "Ubuntu", sans-serif;
+        font-size: xx-large;
+        
+    }
+    .res__img3{
+        position:relative;
+        
+    }
+    .res__img3__p3{
+        
+        position:absolute;
+        top:80%;
+        font-family: "Ubuntu", sans-serif;
+        font-size: xx-large;
+        
+    }
+    .res__img4{
+        position:relative;
+        
+    }
+    .res__img4__p4{
+        
+        position:absolute;
+        top:80%;
+        font-family: "Ubuntu", sans-serif;
+        font-size: xx-large;
+    }
+    .ins{
+        padding-top:40px;
+        margin-left: 7%;
+        gap:10px;
+        font-size: large;
+    }
+    .cre{
+        display:flex;
+        margin-left: 7%;
+        padding-top: 20px;
+        text-align: center;
+        
+        gap:10px;
+}
+.cre img{
+    border-radius:10px;
+    width:340px;
+        height:225px;
+}
+.cre p{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    
+    padding-top: 30px;
+}
+.the{
+    padding:10px;
+    display: flex;
+    text-align: center;
+    gap:10px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.the img{
+    border-radius: 10px;
+    width:275px;
+    height: 275px;
+    
+
+}
+.the__img1__p1,.the__img2__p2,.the__img3__p3,.the__img4__p4{
+    padding-top: 10px;
+        text-align:left;
+        
+
+}
+.exp{
+    
+    padding-top: 20px;
+    
+    
+}
+.pic{
+    
+    display: flex;
+    gap:10px;
+}
+.pic img{
+    border-radius: 20px;
+    width:275px;
+    height: 275px;
+    
+}
+.e1,.e2,.e3,.e4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: left;
+    padding-top:10px;
+}
+.trip img{
+    width: 800px;
+}
+.trip {
+    
+    padding-top:20px;
+    margin-left:15%;
+    position: relative;
+    
+}
+.trip h3{
+    position:absolute;
+    
+    top:5%;
+    right:0%;
+    left: 62%;
+    color:blue;
+    cursor:pointer;
+    
+    
+}
+.trip h3:hover{
+       opacity: 0.4;
+        
+        
+        gap:10px;
+
+}
+.more{
+    display: flex;
+    margin-left: 10%;
+}
+.more img{
+    border-radius:10px;
+    width:340px;
+        height:225px;
+}
+.more__m1,.more__m2,.more__m3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 5px;
+}
+.India{
+
+    padding-top: 20px;
+
+}
+.dream{
+    display:flex;
+        margin-left: 1%;
+        padding-top: 20px;
+        text-align:left;
+        gap:20px;
+        cursor: pointer;
+}
+.dream img{
+    border-radius: 20px;
+    width:275px;
+    height: 275px;
+    
+
+}
+.dream__chen,.dream__chen1,.dream__chen2,.dream__chen3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding-top: 5px;
+    font-size: x-large ;
+    color:aquamarine;
+    position:relative;
+
+}
+.dream h3{
+    position:absolute;
+    top:80%;
+}
+.dream__chen:hover,.dream__chen1:hover,.dream__chen2:hover,.dream__chen3:hover{
+    opacity: 0.8;
+}
+.foreign{
+    
+    padding-top: 50px;
+
+}
+.next{
+    display:flex;
+        margin-left: 1%;
+        padding-top: 20px;
+        text-align:left;
+        gap:20px;
+        cursor: pointer;
+}
+.next img{
+    border-radius: 20px;
+    width:275px;
+    height: 275px;
+    
+
+}
+.next__h1,.next__h2,.next__h3,.next__h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding-top: 5px;
+    font-size: x-large ;
+    color:aquamarine;
+    position:relative;
+
+}
+.next h3{
+    position:absolute;
+    top:80%;
+}
+.next__h1:hover,.next__h2:hover,.next__h3:hover,.next__h4:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .sec{
+        display:none;
+    }
+    .res{
+        display:none;
+    }
+    .navbar{
+        display: none;
+    }
+    
+    
+}
+
+
